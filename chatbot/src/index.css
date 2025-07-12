@@ -157,7 +157,7 @@ body {
   width: 100%;
 }
 .chat-footer {
-  flex-shrink: 0;
+  flex-shrink: 0; /* Prevents footer from shrinking */
   background: #fff;
   padding: 15px 22px 20px;
 }
@@ -205,9 +205,6 @@ body {
 }
 
 @media (max-width: 480px) {
-  html {
-    height: 100vh;
-  }
   .chatbot-popup {
     margin-left: 10px !important;
     margin-right: 10px !important;
